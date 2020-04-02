@@ -2,13 +2,13 @@
 Class assignment to understand Hadoop by implementing simple WordCount application.
 
 ### Objectives
-•Understand the MapReduce programming model.
-•Setting up Hadoop on a single node and on a cluster of nodes.
+1. Understand the MapReduce programming model.
+2. Setting up Hadoop on a single node and on a cluster of nodes.
 
 ### Requirements
-    Hadoop >= 3.2.1 or greater
-    Java >= 14
-    Intellij-IDEA (IDE)
+    1. Hadoop >= 3.2.1 or greater
+    2. Java >= 14 or greater
+    3. Intellij-IDEA (IDE)
 
 ### Installation
 
