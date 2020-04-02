@@ -17,9 +17,8 @@
 
 package examples;
 
-import java.rmi.RemoteException;
 import java.rmi.Naming;
-import java.io.*;
+import java.rmi.RemoteException;
 
 /**
    NumberCruncherClient is a simple client for factoring integers. A

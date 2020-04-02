@@ -17,8 +17,8 @@
 
 package examples;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
    Example code for log4j to viewed in conjunction with the {@link

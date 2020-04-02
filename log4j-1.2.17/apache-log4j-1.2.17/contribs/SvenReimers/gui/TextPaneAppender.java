@@ -18,34 +18,17 @@
 package org.apache.log4j.gui;
 
 
-import java.awt.Color;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.io.*;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.StringTokenizer;
-import java.util.Hashtable;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JTextPane;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.MutableAttributeSet;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
-import javax.swing.text.TabSet;
-import javax.swing.text.TabStop;
-
-import org.apache.log4j.*;
-
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.helpers.Loader;
 import org.apache.log4j.helpers.QuietWriter;
 import org.apache.log4j.helpers.TracerPrintWriter;
-import org.apache.log4j.helpers.OptionConverter;
+import org.apache.log4j.spi.LoggingEvent;
+
+import javax.swing.*;
+import javax.swing.text.*;
+import java.awt.*;
+import java.net.URL;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.StringTokenizer;
 
 
 /**

@@ -16,18 +16,15 @@
  */
 
 import org.apache.log4j.AppenderSkeleton;
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.spi.ErrorHandler;
-import org.apache.log4j.spi.ErrorCode;
 import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.spi.ErrorCode;
+import org.apache.log4j.spi.LoggingEvent;
 
-import java.util.Hashtable;
-import java.util.Properties;
 import javax.jms.*;
-import javax.naming.InitialContext;
 import javax.naming.Context;
-import javax.naming.NameNotFoundException;
+import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import java.util.Hashtable;
 
 /**
  * A Simple JMS (P2P) Queue Appender. 

@@ -18,13 +18,12 @@
 
 package com.systemsunion.LoggingServer;
 
-import java.net.Socket;
-import java.net.ServerSocket;
-import java.io.IOException;
-
 import org.apache.log4j.Category;
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.NDC;
+import org.apache.log4j.PropertyConfigurator;
+
+import java.net.ServerSocket;
+import java.net.Socket;
 
 /**
    A simple {@link SocketNode} based server.

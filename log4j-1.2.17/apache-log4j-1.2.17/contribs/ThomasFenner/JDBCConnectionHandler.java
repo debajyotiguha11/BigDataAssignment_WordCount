@@ -17,9 +17,6 @@
 
 package com.klopotek.utils.log;
 
-import java.sql.*;
-
-
 /**
 This interface has to be implemented for your own database-connection-handling and its used in class JDBCLogger.
 

@@ -17,11 +17,6 @@
 
 // Here is a code example to configure the JDBCAppender without a configuration-file
 
-import org.apache.log4j.*;
-import java.sql.*;
-import java.lang.*;
-import java.util.*;
-
 public class Log4JTest
 {
 	// Create a category instance for this class

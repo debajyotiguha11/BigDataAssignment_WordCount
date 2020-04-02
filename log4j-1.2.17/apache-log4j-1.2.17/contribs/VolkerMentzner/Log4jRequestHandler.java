@@ -16,11 +16,6 @@
  */
 package com.psibt.framework.net;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import org.apache.log4j.*;
-
 /**
  * This class implements a RequestHandler for log4j configuration. It serves the "/log4j/" path
  * in the PluggableHTTPServer. If this path is requested a list of all current log4j categories

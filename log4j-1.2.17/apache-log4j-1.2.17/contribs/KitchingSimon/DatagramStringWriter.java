@@ -17,15 +17,11 @@
 
 package org.apache.log4j.net;
 
-import java.io.Writer;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.DatagramPacket;
-import java.net.UnknownHostException;
-import java.net.SocketException;
-import java.io.IOException;
-
 import org.apache.log4j.helpers.LogLog;
+
+import java.io.IOException;
+import java.io.Writer;
+import java.net.*;
 
 /**
  * DatagramStringWriter is a wrapper around the java.net.DatagramSocket class

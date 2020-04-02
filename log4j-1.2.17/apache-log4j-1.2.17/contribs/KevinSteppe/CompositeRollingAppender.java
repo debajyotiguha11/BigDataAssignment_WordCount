@@ -18,18 +18,16 @@ package org.apache.log4j;
  */
 
 import org.apache.log4j.RollingCalendar;
-import org.apache.log4j.helpers.OptionConverter;
-import org.apache.log4j.helpers.QuietWriter;
 import org.apache.log4j.helpers.CountingQuietWriter;
 import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.helpers.OptionConverter;
 import org.apache.log4j.spi.LoggingEvent;
 
-import java.util.Date;
+import java.io.File;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.SimpleDateFormat;
-import java.io.File;
-import java.io.FilenameFilter;
+import java.util.Date;
 
 /**
  *  <p>CompositeRollingAppender combines RollingFileAppender and DailyRollingFileAppender<br>

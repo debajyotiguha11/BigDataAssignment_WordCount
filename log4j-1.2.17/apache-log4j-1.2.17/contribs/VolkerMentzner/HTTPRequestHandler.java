@@ -16,9 +16,6 @@
  */
 package com.psibt.framework.net;
 
-import java.io.*;
-import java.net.*;
-
 /**
  * This interface defines all methods that have to be implemented for a HTTPRequestHandler for the
  * PluggableHTTPServer.

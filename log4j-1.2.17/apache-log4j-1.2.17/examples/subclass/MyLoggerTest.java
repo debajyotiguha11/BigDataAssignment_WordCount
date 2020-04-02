@@ -17,10 +17,9 @@
 
 package examples.subclass;
 
-import org.apache.log4j.*;
-import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.xml.DOMConfigurator;
 
 /**
    A simple example showing logger subclassing. 

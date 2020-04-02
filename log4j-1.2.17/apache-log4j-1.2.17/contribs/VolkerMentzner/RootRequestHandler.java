@@ -16,10 +16,6 @@
  */
 package com.psibt.framework.net;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-
 /**
  * This class implements a RequestHandler for the root path "/" in the PluggableHTTPServer.
  * A simple HTML message will be replied to the client.

@@ -17,18 +17,12 @@
 
 package com.systemsunion.LoggingServer;
 
-import java.net.InetAddress;
-import java.net.Socket;
-import java.net.ServerSocket;
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-
-
 import org.apache.log4j.Category;
 import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.Priority;
-import org.apache.log4j.NDC;
+
+import java.io.ObjectInputStream;
+import java.net.InetAddress;
+import java.net.Socket;
 
 // Contributors:  Moses Hohman <mmhohman@rainbow.uchicago.edu>
 

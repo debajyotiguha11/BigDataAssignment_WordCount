@@ -16,13 +16,13 @@
  */
  package org.apache.log4j;
  
-import java.io.File;
-import java.io.Writer;
-import java.io.FileWriter;
-import java.io.BufferedWriter;
-import org.apache.log4j.spi.LoggingEvent;
 import org.apache.log4j.helpers.OptionConverter;
-import org.apache.log4j.spi.ErrorHandler;
+import org.apache.log4j.spi.LoggingEvent;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.Writer;
 
 /**
    TempFileAppender creates new unique file for each logging statement.

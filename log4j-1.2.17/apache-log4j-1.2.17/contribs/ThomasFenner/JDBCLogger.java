@@ -17,13 +17,6 @@
 
 package com.klopotek.utils.log;
 
-import java.sql.*;
-import java.util.*;
-import org.apache.log4j.*;
-import org.apache.log4j.helpers.*;
-import org.apache.log4j.spi.*;
-
-
 /**
 This class encapsulate the logic which is necessary to log into a table.
 Used by JDBCAppender

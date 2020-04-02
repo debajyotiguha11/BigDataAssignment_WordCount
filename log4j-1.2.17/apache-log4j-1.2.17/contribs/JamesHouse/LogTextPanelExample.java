@@ -16,11 +16,6 @@
  */
 package org.apache.log4j.gui.examples;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-
-import org.apache.log4j.*;
 import org.apache.log4j.gui.TextPanelAppender;
 
 public class LogTextPanelExample {

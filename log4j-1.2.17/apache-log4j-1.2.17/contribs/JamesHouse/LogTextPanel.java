@@ -16,23 +16,15 @@
  */
 package org.apache.log4j.gui;
 
-import java.awt.Color;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.awt.BorderLayout;
-
-import javax.swing.*;
-import javax.swing.text.StyledDocument;
-import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.MutableAttributeSet;
+import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
-
+import javax.swing.text.StyledDocument;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.StringTokenizer;
-import java.util.Enumeration;
-import java.util.ArrayList;
-
-import org.apache.log4j.*;
 
 public class LogTextPanel extends JPanel {
 

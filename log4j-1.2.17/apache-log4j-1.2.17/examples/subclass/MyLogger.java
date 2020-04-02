@@ -17,8 +17,8 @@
 
 package examples.subclass;
 
-import org.apache.log4j.*;
 import examples.customLevel.XLevel;
+import org.apache.log4j.Logger;
 
 /**
    A simple example showing logger subclassing. 

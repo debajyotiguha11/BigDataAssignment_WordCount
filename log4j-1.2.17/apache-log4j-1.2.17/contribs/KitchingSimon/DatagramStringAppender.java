@@ -17,22 +17,13 @@
 
 package org.apache.log4j.net;
 
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.DatagramPacket;
-import java.net.UnknownHostException;
-import java.net.SocketException;
-
-import org.apache.log4j.helpers.OptionConverter;
 import org.apache.log4j.AppenderSkeleton;
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.Category;
-import org.apache.log4j.Priority;
 import org.apache.log4j.Layout;
-
-import org.apache.log4j.helpers.SingleLineTracerPrintWriter;
 import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.helpers.OptionConverter;
 import org.apache.log4j.helpers.QuietWriter;
+import org.apache.log4j.helpers.SingleLineTracerPrintWriter;
+import org.apache.log4j.spi.LoggingEvent;
 
 
 /**

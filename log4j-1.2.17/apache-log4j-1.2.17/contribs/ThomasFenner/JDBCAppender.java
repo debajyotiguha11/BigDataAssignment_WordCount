@@ -17,12 +17,6 @@
 
 package com.klopotek.utils.log;
 
-import java.sql.*;
-import java.util.*;
-import org.apache.log4j.*;
-import org.apache.log4j.helpers.*;
-import org.apache.log4j.spi.*;
-
 /**
 The JDBCAppender, writes messages into a database
 

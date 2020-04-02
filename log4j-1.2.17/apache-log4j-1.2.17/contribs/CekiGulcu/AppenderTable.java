@@ -16,27 +16,18 @@
  */
 
 
-import org.apache.log4j.helpers.CyclicBuffer;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.Layout;
 import org.apache.log4j.PatternLayout;
+import org.apache.log4j.helpers.CyclicBuffer;
 import org.apache.log4j.spi.LoggingEvent;
 
-import javax.swing.JFrame;
-import javax.swing.JButton;
-import javax.swing.JTable;
-import javax.swing.JTextArea;
+import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
-import javax.swing.JScrollPane;
-import javax.swing.BoxLayout;
-
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.event.ActionListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.Container;
+import java.awt.event.ActionListener;
 
 /**
    The AppenderTable illustrates one possible implementation of

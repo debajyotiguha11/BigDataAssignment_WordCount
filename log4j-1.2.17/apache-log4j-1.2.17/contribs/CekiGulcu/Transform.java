@@ -18,39 +18,16 @@
 package org.apache.log4j.xml;
 
 import org.apache.log4j.Category;
-import org.apache.log4j.Layout;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.helpers.OptionConverter;
-import org.apache.log4j.helpers.DateLayout;
-
-import org.xml.sax.ContentHandler;
-import org.xml.sax.Locator;
-import org.xml.sax.Attributes;
-import org.xml.sax.XMLReader;
-import org.xml.sax.ext.LexicalHandler;
-import org.xml.sax.helpers.XMLReaderFactory;
-import org.xml.sax.SAXException;
-import org.apache.xerces.parsers.SAXParser;
-
-import org.apache.trax.Processor;
-import org.apache.trax.TemplatesBuilder;
-import org.apache.trax.Templates;
-import org.apache.trax.Transformer;
-import org.apache.trax.Result;
-import org.apache.trax.ProcessorException; 
-import org.apache.trax.ProcessorFactoryException;
-import org.apache.trax.TransformException; 
-
-
-import org.apache.serialize.SerializerFactory;
 import org.apache.serialize.Serializer;
-import org.apache.serialize.OutputFormat;
+import org.apache.serialize.SerializerFactory;
+import org.apache.trax.*;
+import org.xml.sax.*;
+import org.xml.sax.ext.LexicalHandler;
 import org.xml.sax.helpers.AttributesImpl;
-
+import org.xml.sax.helpers.XMLReaderFactory;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 
 public class Transform {

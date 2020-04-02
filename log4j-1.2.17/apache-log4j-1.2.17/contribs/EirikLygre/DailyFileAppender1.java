@@ -19,19 +19,13 @@
 
 package org.apache.log4j;
 
+import org.apache.log4j.helpers.OptionConverter;
+import org.apache.log4j.spi.ErrorCode;
+import org.apache.log4j.spi.LoggingEvent;
+
 import java.io.IOException;
-import java.io.Writer;
-import java.io.FileWriter;
-import java.io.File;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import org.apache.log4j.helpers.OptionConverter;
-import org.apache.log4j.helpers.QuietWriter;
-import org.apache.log4j.helpers.CountingQuietWriter;
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.spi.ErrorCode;
 
 /**
    DailyFileAppender extends FileAppender to use filenames formatted with

@@ -17,14 +17,14 @@
 
 package examples;
 
-import java.rmi.server.UnicastRemoteObject;
-import java.rmi.RemoteException;
-import java.rmi.Naming;
-import java.util.Vector;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.NDC;
 import org.apache.log4j.PropertyConfigurator;
+
+import java.rmi.Naming;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Vector;
 
 /**
    A simple {@link NumberCruncher} implementation that logs its

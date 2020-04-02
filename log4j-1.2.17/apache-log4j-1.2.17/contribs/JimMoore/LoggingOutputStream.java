@@ -16,8 +16,9 @@
  */
 
 
-import java.io.*;
-import org.apache.log4j.*;
+import org.apache.log4j.Category;
+
+import java.io.IOException;
 
 
 /**

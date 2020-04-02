@@ -17,7 +17,6 @@
 
 package examples;
 
-import org.apache.log4j.*;
 import org.apache.log4j.helpers.PatternParser;
 
 /**

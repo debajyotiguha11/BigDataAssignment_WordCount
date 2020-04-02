@@ -16,11 +16,6 @@
  */
 package com.psibt.framework.net;
 
-import java.net.*;
-import java.io.*;
-import java.util.*;
-import org.apache.log4j.*;
-
 /**
  * This class implements a HTTP-server frame. All HTTP-requests are handled by HTTPRequestHandler
  * classes which implement the <code>HTTPRequestHandler</code> interface. Every RequestHandler has

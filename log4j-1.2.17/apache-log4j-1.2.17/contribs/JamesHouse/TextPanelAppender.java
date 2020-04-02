@@ -17,25 +17,13 @@
 package org.apache.log4j.gui;
 
 
-import java.awt.Color;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.io.*;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.StringTokenizer;
-import java.util.Hashtable;
-import java.util.ArrayList;
-
-import javax.swing.JPanel;
-
-import org.apache.log4j.*;
-
-import org.apache.log4j.spi.LoggingEvent;
-import org.apache.log4j.helpers.Loader;
 import org.apache.log4j.helpers.QuietWriter;
 import org.apache.log4j.helpers.TracerPrintWriter;
-import org.apache.log4j.helpers.OptionConverter;
+import org.apache.log4j.spi.LoggingEvent;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
 
 
 /**
