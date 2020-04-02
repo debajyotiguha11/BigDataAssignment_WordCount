@@ -76,24 +76,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/slf4j-api-1.7.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="file:///opt/hadoop-3.2.1/share/hadoop/hdfs/lib" />
         </CLASSES>
         <JAVADOC />
@@ -102,6 +84,19 @@
         </SOURCES>
         <jarDirectory url="file:///opt/hadoop-3.2.1/share/hadoop/hdfs/lib" recursive="false" />
         <jarDirectory url="file:///opt/hadoop-3.2.1/share/hadoop/hdfs/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///opt/hadoop-3.2.1/share/hadoop/common/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///opt/hadoop-3.2.1/share/hadoop/common/lib" />
+        </SOURCES>
+        <jarDirectory url="file:///opt/hadoop-3.2.1/share/hadoop/common/lib" recursive="false" />
+        <jarDirectory url="file:///opt/hadoop-3.2.1/share/hadoop/common/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
